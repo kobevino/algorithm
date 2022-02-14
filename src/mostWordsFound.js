@@ -1,5 +1,5 @@
 /**
- * @description Leetcode
+ * @description Leetcode 2114
  * 주어진 배열안에 있는 문장들중에 단어 갯수의 최대값을 구하기.
  * @param {string[]} sentences
  * @return {number}

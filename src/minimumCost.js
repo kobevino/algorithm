@@ -1,5 +1,5 @@
 /**
- * @description Leetcode
+ * @description Leetcode 2144
  * 최소 비용 구하기
  * @param {number[]} cost
  * @return {number}

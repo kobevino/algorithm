@@ -1,5 +1,6 @@
 /**
- * @description 
+ * @description Leetcode 2160
+ * 주어진 배열안의 정수의 최소합 구하기
  * @param {number[]} num
  * @return {number}
  */

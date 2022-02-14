@@ -1,5 +1,5 @@
 /**
- * @description Leetcode
+ * @description Leetcode 2133
  * n * n 의 모든 행과 열에 1부터 n까지의 모든 정수가 포함되어야한다.
  * @param {number[][]} matrix
  * @return {boolean}

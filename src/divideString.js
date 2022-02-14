@@ -1,5 +1,5 @@
 /**
- * @description Leetcode
+ * @description Leetcode 2138
  * 1. size k 만큼 문자열 그룹핑해서 배열 만들기.
  * 2. 그룹핑하는데 문자열이 모자르면 fill 문자로 채운다.
  * @param {string} s
