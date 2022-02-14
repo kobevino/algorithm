@@ -8,7 +8,7 @@
  */
 function solution(num) {
   const str = num.toString();
-  const lastChar = str[str.length - 1];
+  const lastChar = str.at(-1);
 
   return num === 0 ? true : lastChar !== '0' ? true : false;
 }
