@@ -5,10 +5,12 @@
   "license": "MIT",
   "scripts": {
     "start": "node src/$FILENAME",
-    "test": "jest"
+    "test": "jest",
+    "plop": "plop"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
-    "jest": "^27.4.7"
+    "jest": "^27.4.7",
+    "plop": "^3.0.5"
   }
 }
