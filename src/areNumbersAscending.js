@@ -5,16 +5,11 @@
  * @return {boolean}
  */
 function solution(s) {
-  const nums = s.split(' ').reduce((acc, curr) => {
+  return s.split(' ').reduce((acc, curr) => {
     if (!isNaN(curr)) acc.push(Number(curr));
     return acc;
   }
-  , []);
-
-  for (let i = 0; i < nums.length - 1; i++) {
-    if (nums[i] >= nums[i + 1]) return false;
-  }
-  return true;
+  , []).every((num, idx, arr) => idx === 0 || num > arr[idx - 1]);
 }
 
 module.exports = solution;
